@@ -22,9 +22,8 @@ function print_link(){
 
 //
 
-var shuffleSequence = seq("intro", "intro1"
+var shuffleSequence = seq("intro", "intro1", ""
                           );
-var practiceItemTypes = ["practice"];
 
 var defaults = [
     "Separator", {
