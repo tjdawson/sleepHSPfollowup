@@ -47,7 +47,7 @@ var shuffleSequence = seq("intro", "intro1", "sep",
 "test_tula_mommy_target","sep",
 "test_jair_toy_distractor","sep",
 "test_tace_spill_highest","sep",
-"test_blime_roll_lowest","outro1","sr","outro2",
+"test_blime_roll_lowest","outro1","sr","outro2"
 );
 
 var defaults = [
@@ -95,7 +95,7 @@ var items = [    ["sr", "__SendResults__", { }],
         ["intro1", "Form", {
             html: {include: "intro1.html"},
             hideProgressBar: true,
-            countsForProgressBar: false
+            countsForProgressBar: false,
     validators: {
     audiotest: function(s)
     { if (s == "3401")
