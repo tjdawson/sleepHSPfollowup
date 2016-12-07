@@ -1,53 +1,53 @@
 var manualSendResults = true; 
 var shuffleSequence = seq("intro", "intro1", "sep", 
-"test_mipen_take_highest","sep",
-"test_tiz_stair_highest","sep",
-"test_zant_spin_distractor","sep",
-"test_vash_shoe_target","sep",
-"test_mipen_election_distractor","sep",
+"test_tace_shake_distractor","sep",
+"test_mipen_hear_lowest","sep",
+"test_mipen_control_distractor","sep",
 "test_mipen_bag_target","sep",
-"test_telpen_spin_highest","sep",
-"test_tace_dirty_distractor","sep",
-"test_geck_clean_highest","sep",
-"test_tiz_na_lowest","sep",
-"test_jair_stand_highest","sep",
-"test_zant_follow_highest","sep",
-"test_doon_hug_highest","sep",
-"test_tula_mommy_target","sep",
-"test_tace_bag_highest","sep",
+"test_tiz_step_lowest","sep",
+"test_blime_open_distractor","sep",
+"test_blime_neck_lowest","sep",
+"test_zant_come_lowest","sep",
+"test_jair_open_highest","sep",
+"test_tula_drink_lowest","sep",
+"test_tula_hold_highest","sep",
+"test_zant_stand_highest","sep",
+"test_tiz_cup_distractor","sep",
 "test_zant_book_target","sep",
-"test_tula_na_lowest","sep",
-"test_vash_na_lowest","sep",
-"test_bist_phone_distractor","sep",
-"test_blime_na_lowest","sep",
-"test_zant_na_lowest","sep",
-"test_bist_move_highest","sep",
-"test_doon_follow_distractor","sep",
-"test_tiz_thing_target","sep",
-"test_blime_toy_target","sep",
-"test_geck_in_distractor","sep",
-"test_mipen_na_lowest","sep",
-"test_tace_phone_target","sep",
-"test_geck_nose_target","sep",
-"test_vash_move_distractor","sep",
-"test_tula_phone_highest","sep",
-"test_jair_stair_distractor","sep",
-"test_tiz_stand_distractor","sep",
-"test_blime_dirty_highest","sep",
-"test_tula_clean_distractor","sep",
-"test_doon_na_lowest","sep",
-"test_jair_hungry_lowest","sep",
-"test_doon_necklace_target","sep",
+"test_telpen_tap_distractor","sep",
 "test_jair_time_target","sep",
-"test_telpen_ball_target","sep",
-"test_tace_na_lowest","sep",
-"test_vash_in_highest","sep",
-"test_bist_na_lowest","sep",
-"test_geck_na_lowest","sep",
-"test_blime_bag_distractor","sep",
+"test_tiz_tap_highest","sep",
+"test_bist_come_lowest","sep",
+"test_vash_wait_lowest","sep",
+"test_telpen_coming_lowest","sep",
+"test_geck_sit_lowest","sep",
+"test_mipen_cup_highest","sep",
+"test_tula_you_distractor","sep",
+"test_tace_phone_target","sep",
 "test_bist_horse_target","sep",
-"test_telpen_na_lowest","sep",
-"test_telpen_hug_distractor","outro1","sr","outro2"
+"test_tace_call_lowest","sep",
+"test_geck_touch_highest","sep",
+"test_vash_shoe_target","sep",
+"test_geck_momma_target","sep",
+"test_doon_necklace_target","sep",
+"test_doon_doll_lowest","sep",
+"test_zant_throw_distractor","sep",
+"test_bist_go_highest","sep",
+"test_tace_you_highest","sep",
+"test_jair_hurry_lowest","sep",
+"test_blime_hold_highest","sep",
+"test_tiz_thing_target","sep",
+"test_telpen_throw_highest","sep",
+"test_doon_shake_highest","sep",
+"test_vash_hold_distractor","sep",
+"test_tula_mommy_target","sep",
+"test_telpen_ball_target","sep",
+"test_bist_touch_distractor","sep",
+"test_jair_go_distractor","sep",
+"test_vash_drink_highest","sep",
+"test_doon_stand_distractor","sep",
+"test_geck_drink_distractor","sep",
+"test_blime_toy_target","outro1","sr","outro2"
 );
 
 var defaults = [
@@ -126,192 +126,192 @@ var items = [    ["sr", "__SendResults__", { }],
 html: {include: "test_tula_mommy_target.html"} 
 }],
 
-["test_tula_phone_highest", "Form", { 
-html: {include: "test_tula_phone_highest.html"} 
+["test_tula_hold_highest", "Form", { 
+html: {include: "test_tula_hold_highest.html"} 
 }],
 
-["test_tula_na_lowest", "Form", { 
-html: {include: "test_tula_na_lowest.html"} 
+["test_tula_drink_lowest", "Form", { 
+html: {include: "test_tula_drink_lowest.html"} 
 }],
 
-["test_tula_clean_distractor", "Form", { 
-html: {include: "test_tula_clean_distractor.html"} 
+["test_tula_you_distractor", "Form", { 
+html: {include: "test_tula_you_distractor.html"} 
 }],
 
 ["test_vash_shoe_target", "Form", { 
 html: {include: "test_vash_shoe_target.html"} 
 }],
 
-["test_vash_in_highest", "Form", { 
-html: {include: "test_vash_in_highest.html"} 
+["test_vash_drink_highest", "Form", { 
+html: {include: "test_vash_drink_highest.html"} 
 }],
 
-["test_vash_na_lowest", "Form", { 
-html: {include: "test_vash_na_lowest.html"} 
+["test_vash_wait_lowest", "Form", { 
+html: {include: "test_vash_wait_lowest.html"} 
 }],
 
-["test_vash_move_distractor", "Form", { 
-html: {include: "test_vash_move_distractor.html"} 
+["test_vash_hold_distractor", "Form", { 
+html: {include: "test_vash_hold_distractor.html"} 
 }],
 
-["test_geck_nose_target", "Form", { 
-html: {include: "test_geck_nose_target.html"} 
+["test_geck_momma_target", "Form", { 
+html: {include: "test_geck_momma_target.html"} 
 }],
 
-["test_geck_clean_highest", "Form", { 
-html: {include: "test_geck_clean_highest.html"} 
+["test_geck_touch_highest", "Form", { 
+html: {include: "test_geck_touch_highest.html"} 
 }],
 
-["test_geck_na_lowest", "Form", { 
-html: {include: "test_geck_na_lowest.html"} 
+["test_geck_sit_lowest", "Form", { 
+html: {include: "test_geck_sit_lowest.html"} 
 }],
 
-["test_geck_in_distractor", "Form", { 
-html: {include: "test_geck_in_distractor.html"} 
+["test_geck_drink_distractor", "Form", { 
+html: {include: "test_geck_drink_distractor.html"} 
 }],
 
 ["test_tiz_thing_target", "Form", { 
 html: {include: "test_tiz_thing_target.html"} 
 }],
 
-["test_tiz_stair_highest", "Form", { 
-html: {include: "test_tiz_stair_highest.html"} 
+["test_tiz_tap_highest", "Form", { 
+html: {include: "test_tiz_tap_highest.html"} 
 }],
 
-["test_tiz_na_lowest", "Form", { 
-html: {include: "test_tiz_na_lowest.html"} 
+["test_tiz_step_lowest", "Form", { 
+html: {include: "test_tiz_step_lowest.html"} 
 }],
 
-["test_tiz_stand_distractor", "Form", { 
-html: {include: "test_tiz_stand_distractor.html"} 
+["test_tiz_cup_distractor", "Form", { 
+html: {include: "test_tiz_cup_distractor.html"} 
 }],
 
 ["test_bist_horse_target", "Form", { 
 html: {include: "test_bist_horse_target.html"} 
 }],
 
-["test_bist_move_highest", "Form", { 
-html: {include: "test_bist_move_highest.html"} 
+["test_bist_go_highest", "Form", { 
+html: {include: "test_bist_go_highest.html"} 
 }],
 
-["test_bist_na_lowest", "Form", { 
-html: {include: "test_bist_na_lowest.html"} 
+["test_bist_come_lowest", "Form", { 
+html: {include: "test_bist_come_lowest.html"} 
 }],
 
-["test_bist_phone_distractor", "Form", { 
-html: {include: "test_bist_phone_distractor.html"} 
+["test_bist_touch_distractor", "Form", { 
+html: {include: "test_bist_touch_distractor.html"} 
 }],
 
 ["test_jair_time_target", "Form", { 
 html: {include: "test_jair_time_target.html"} 
 }],
 
-["test_jair_stand_highest", "Form", { 
-html: {include: "test_jair_stand_highest.html"} 
+["test_jair_open_highest", "Form", { 
+html: {include: "test_jair_open_highest.html"} 
 }],
 
-["test_jair_hungry_lowest", "Form", { 
-html: {include: "test_jair_hungry_lowest.html"} 
+["test_jair_hurry_lowest", "Form", { 
+html: {include: "test_jair_hurry_lowest.html"} 
 }],
 
-["test_jair_stair_distractor", "Form", { 
-html: {include: "test_jair_stair_distractor.html"} 
+["test_jair_go_distractor", "Form", { 
+html: {include: "test_jair_go_distractor.html"} 
 }],
 
 ["test_tace_phone_target", "Form", { 
 html: {include: "test_tace_phone_target.html"} 
 }],
 
-["test_tace_bag_highest", "Form", { 
-html: {include: "test_tace_bag_highest.html"} 
+["test_tace_you_highest", "Form", { 
+html: {include: "test_tace_you_highest.html"} 
 }],
 
-["test_tace_na_lowest", "Form", { 
-html: {include: "test_tace_na_lowest.html"} 
+["test_tace_call_lowest", "Form", { 
+html: {include: "test_tace_call_lowest.html"} 
 }],
 
-["test_tace_dirty_distractor", "Form", { 
-html: {include: "test_tace_dirty_distractor.html"} 
+["test_tace_shake_distractor", "Form", { 
+html: {include: "test_tace_shake_distractor.html"} 
 }],
 
 ["test_doon_necklace_target", "Form", { 
 html: {include: "test_doon_necklace_target.html"} 
 }],
 
-["test_doon_hug_highest", "Form", { 
-html: {include: "test_doon_hug_highest.html"} 
+["test_doon_shake_highest", "Form", { 
+html: {include: "test_doon_shake_highest.html"} 
 }],
 
-["test_doon_na_lowest", "Form", { 
-html: {include: "test_doon_na_lowest.html"} 
+["test_doon_doll_lowest", "Form", { 
+html: {include: "test_doon_doll_lowest.html"} 
 }],
 
-["test_doon_follow_distractor", "Form", { 
-html: {include: "test_doon_follow_distractor.html"} 
+["test_doon_stand_distractor", "Form", { 
+html: {include: "test_doon_stand_distractor.html"} 
 }],
 
 ["test_telpen_ball_target", "Form", { 
 html: {include: "test_telpen_ball_target.html"} 
 }],
 
-["test_telpen_spin_highest", "Form", { 
-html: {include: "test_telpen_spin_highest.html"} 
+["test_telpen_throw_highest", "Form", { 
+html: {include: "test_telpen_throw_highest.html"} 
 }],
 
-["test_telpen_na_lowest", "Form", { 
-html: {include: "test_telpen_na_lowest.html"} 
+["test_telpen_coming_lowest", "Form", { 
+html: {include: "test_telpen_coming_lowest.html"} 
 }],
 
-["test_telpen_hug_distractor", "Form", { 
-html: {include: "test_telpen_hug_distractor.html"} 
+["test_telpen_tap_distractor", "Form", { 
+html: {include: "test_telpen_tap_distractor.html"} 
 }],
 
 ["test_blime_toy_target", "Form", { 
 html: {include: "test_blime_toy_target.html"} 
 }],
 
-["test_blime_dirty_highest", "Form", { 
-html: {include: "test_blime_dirty_highest.html"} 
+["test_blime_hold_highest", "Form", { 
+html: {include: "test_blime_hold_highest.html"} 
 }],
 
-["test_blime_na_lowest", "Form", { 
-html: {include: "test_blime_na_lowest.html"} 
+["test_blime_neck_lowest", "Form", { 
+html: {include: "test_blime_neck_lowest.html"} 
 }],
 
-["test_blime_bag_distractor", "Form", { 
-html: {include: "test_blime_bag_distractor.html"} 
+["test_blime_open_distractor", "Form", { 
+html: {include: "test_blime_open_distractor.html"} 
 }],
 
 ["test_zant_book_target", "Form", { 
 html: {include: "test_zant_book_target.html"} 
 }],
 
-["test_zant_follow_highest", "Form", { 
-html: {include: "test_zant_follow_highest.html"} 
+["test_zant_stand_highest", "Form", { 
+html: {include: "test_zant_stand_highest.html"} 
 }],
 
-["test_zant_na_lowest", "Form", { 
-html: {include: "test_zant_na_lowest.html"} 
+["test_zant_come_lowest", "Form", { 
+html: {include: "test_zant_come_lowest.html"} 
 }],
 
-["test_zant_spin_distractor", "Form", { 
-html: {include: "test_zant_spin_distractor.html"} 
+["test_zant_throw_distractor", "Form", { 
+html: {include: "test_zant_throw_distractor.html"} 
 }],
 
 ["test_mipen_bag_target", "Form", { 
 html: {include: "test_mipen_bag_target.html"} 
 }],
 
-["test_mipen_take_highest", "Form", { 
-html: {include: "test_mipen_take_highest.html"} 
+["test_mipen_cup_highest", "Form", { 
+html: {include: "test_mipen_cup_highest.html"} 
 }],
 
-["test_mipen_na_lowest", "Form", { 
-html: {include: "test_mipen_na_lowest.html"} 
+["test_mipen_hear_lowest", "Form", { 
+html: {include: "test_mipen_hear_lowest.html"} 
 }],
 
-["test_mipen_election_distractor", "Form", { 
-html: {include: "test_mipen_election_distractor.html"} 
+["test_mipen_control_distractor", "Form", { 
+html: {include: "test_mipen_control_distractor.html"} 
 }],
 
 ["end", "Form", {
